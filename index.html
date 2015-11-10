@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <script src="jquery.js"></script>
+  <script src="Chart.js"></script>
+  <script src="data.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Chart.js Training</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <table class="table table-bordered" id="form-table">
+          <tr>
+            <th>x軸</th>
+            <th><input type="number" id="xAxisLimit"></th>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-8">
+        <canvas id="lineGraph" width="600" height="400"></canvas>
+        <canvas id="barGraph" width="600" height="400"></canvas>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
